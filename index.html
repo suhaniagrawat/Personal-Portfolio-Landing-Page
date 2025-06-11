@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhani Agrawat - Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: whitesmoke;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            cursor: pointer;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 140px 0;
+        }
+
+        .leftSection {
+            width: 40%;
+            font-size: 3.0rem;
+            line-height: 2.5rem;
+            margin: 70px 0;
+        }
+
+        .rightSection {
+            margin-left: 50px;
+        }
+
+        .rightSection img {
+            width: 300px;
+            border-radius: 10px;
+            margin: 3% 0 3% 30px;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 170, 228);
+        }
+
+        .secondSection {
+          max-width: 80vw;
+          margin: auto;
+          padding-bottom: 60px; 
+      }
+
+
+        .secondSection h1 {
+            font-size: 2.0rem;
+            margin-bottom: 20px;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        footer {
+            background-color: #0c0e1a;
+            padding: 40px 0;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .footer div {
+            margin: 10px 0;
+            min-width: 20   0px;
+        }
+
+        .footer h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: whitesmoke;
+        }
+
+        .footer p {
+            font-size: 0.9rem;
+            color: gray;
+        }
+
+        .projectsSection, .contactSection {
+    max-width: 80vw;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.projectsSection h1, .contactSection h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.projectList {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.projectItem h3 {
+    font-size: 1.5rem;
+    color: #a8a8f0;
+    margin-bottom: 5px;
+}
+
+.projectItem p {
+    font-size: 1rem;
+    color: #c0c0c0;
+}
+
+.contactSection p {
+    font-size: 1.1rem;
+    margin: 15px 0;
+}
+
+.contactSection a {
+    color: #a8a8f0;
+    text-decoration: none;
+}
+
+.contactSection a:hover {
+    text-decoration: underline;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Suhani's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, I am <strong>Suhani Agrawat</strong>
+                <div>and I am a <strong>Backend Developer.</strong></div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="me.jpeg" alt="My Photo">
+            </div>
+        </section>
+        <hr>
+        <section id="about" class="secondSection">
+            <span class="text-gray">Backend developer by profession, tech enthusiast by passion</span>
+            <h1>About Me</h1>
+            <p>Hey, I'm Suhani — a passionate backend developer with a love for clean architecture, scalable solutions, and problem-solving. I enjoy building robust APIs, managing databases, and optimizing server performance. Beyond code, you'll find me exploring new tech trends, contributing to open-source, or savoring a good cup of coffee with a tech podcast in the background. I'm always up for a challenge and eager to learn something new every day.</p>
+        </section>
+        <!-- Projects Section -->
+<section id="projects" class="projectsSection">
+    <h1>Projects</h1>
+    <div class="projectList">
+        <div class="projectItem">
+            <h3>EmBody</h3>
+            <p>A mental and physical well-being tracker.</p>
+        </div>
+        <div class="projectItem">
+            <h3>UpStart</h3>
+            <p>An AI tool built to help budding startups.</p>
+        </div>
+        <div class="projectItem">
+            <h3>ChronoPay</h3>
+            <p>A digital platform to monetize your time by giving you access to premium software tools based on microtasks performed.</p>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+
+<section id="contact" class="contactSection">
+    <h1>Contact Me</h1>
+    <p>📧 Email: <a href="mailto:simplysuhani112@gmail.com">simplysuhani112@gmail.com</a></p>
+    <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/suhani-agrawat-990a84295" target="_blank">linkedin.com/in/suhani-agrawat</a></p>
+    <p>👩‍💻 GitHub: <a href="https://github.com/suhaniagrawat" target="_blank">github.com/suhaniagrawat</a></p>
+</section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Suhani's Developer Portfolio</h3>
+                <p>Crafted with ❤️ and clean code principles.</p>
+            </div>
+            <div class="footer-second">
+                <h3>Quick Links</h3>
+                <p>About</p>
+                <p>Projects</p>
+                <p>Contact</p>
+            </div>
+            <div class="footer-third">
+                <h3>Connect</h3>
+                <p>GitHub</p>
+                <p>LinkedIn</p>
+                <p>Email</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Backend Developer', 'Open Source Contributor', 'Tech Enthusiast', 'An Avid Learner'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
