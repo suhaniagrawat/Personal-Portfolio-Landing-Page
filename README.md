@@ -1,6 +1,6 @@
 # Personal Developer Portfolio Landing Page
 
-A simple and clean personal portfolio landing page built using **HTML** and **vanilla CSS**. This website introduces who I am, showcases my key projects, and provides contact information for collaboration opportunities.
+A simple and clean personal portfolio landing page built using **HTML** and **vanilla CSS**. This website introduces who I am, showcases my key projects, and provides contact information for collaboration opportunities.I primarily specialize in backend development, and this project marks my first attempt at frontend development. To focus on core concepts, I chose to build it using HTML and vanilla CSS
 
 ---
 
